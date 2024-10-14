@@ -2,7 +2,7 @@ header {
     display: flex;
     gap: 2rem;
     margin-bottom: 2rem;
-    
+
     & div:nth-child(1) {
         display: flex;
         flex-direction: column;
@@ -14,7 +14,7 @@ header {
             padding: 0.2rem;
             background-color: var(--color);
             border-radius: 0.3rem;
-            border: 1px solid #000000;
+            border: 1px solid var(--black);
 
             &::placeholder {
                 color: var(--white);
@@ -32,16 +32,27 @@ header {
             background-color: var(--color);
             padding: 0.2rem;
             border-radius: 0.3rem;
-            border: 1px solid #000000;
+            border: 1px solid var(--black);
 
             & option {
                 background-color: var(--color);
                 color: var(--white);
             }
         }
-        
-        
-        
-        
+    }
+}
+
+input.botao {
+    background-color: var(--color);
+    color: var(--white);    
+    width: 6rem;
+    height: 2rem;
+    border: 1px solid var(--black);
+    border-radius: 1rem;
+    cursor: pointer;
+    margin: 0 0 1rem 0;
+    
+    &:hover {
+        background-color: rgb(3, 93, 228);
     }
 }
