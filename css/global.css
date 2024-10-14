@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background-color: rgb(149, 235, 235);
+    --font-family: "Montserrat", sans-serif;;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--background-color);
+    font-family: var(--font-family);
+
+    & h1 {
+        margin: 3rem;
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.separate {
+    border: 1px solid rgb(39, 35, 252);
+    width: 100%;
+    height: 1px;
+}
