@@ -4,6 +4,44 @@ header {
     margin-bottom: 2rem;
     
     & div:nth-child(1) {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        
+        & input {
+            color: var(--white);
+            width: 100%;
+            padding: 0.2rem;
+            background-color: var(--color);
+            border-radius: 0.3rem;
+            border: 1px solid #000000;
+
+            &::placeholder {
+                color: var(--white);
+            }
+        }
+    }
+
+    & div:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+
+        & select {
+            color: var(--white);
+            background-color: var(--color);
+            padding: 0.2rem;
+            border-radius: 0.3rem;
+            border: 1px solid #000000;
+
+            & option {
+                background-color: var(--color);
+                color: var(--white);
+            }
+        }
+        
+        
+        
         
     }
 }
