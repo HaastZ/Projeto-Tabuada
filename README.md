@@ -1,7 +1,7 @@
 Uma aplicação simples de tabuada onde o usuário digita a tabuada que ele quer ver e ela aparece para ele
 
 - Projeto desenvolvido como projeto pessoal
-- Projeto hospedado: [clique aqui]()
+- Projeto hospedado: [clique aqui](https://projeto-tabuada-flax.vercel.app/)
 
 # Objetivo do Projeto
 - Praticar os conhecimentos de javascript
